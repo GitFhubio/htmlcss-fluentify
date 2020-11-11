@@ -48,3 +48,44 @@ nav>ul>li{
 h1{
   color: #fff;
 }
+.header-bottom{position:relative;
+height:100px;}
+.bottom-layout{
+width:60%;
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+}
+
+h3,p{
+  text-align: center;
+}
+
+main{
+  width:100%;
+}
+.clearfix::after{
+  clear:both;
+  display:table;
+  content:"";
+}
+.fl{
+  float:left;
+}
+.col-4{
+  width:calc(100%/3);
+  height:400px;
+  background-color: red;
+  border:1px solid black;
+}
+.col-6{
+  width:calc(100%/2);
+  height:400px;
+  background-color: green;
+  border:1px solid grey;
+}
+.main-top,.main-bottom{
+  width:90%;
+  margin:0 auto;
+}
