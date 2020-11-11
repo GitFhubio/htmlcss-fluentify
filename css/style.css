@@ -55,7 +55,7 @@ nav>ul>li{
   border:1px solid red;
   position:absolute;
   top:50%;
-  transform:translate(,-50%);
+  transform:translate(0,-50%);
 }
 h1{
   color: #fff;
@@ -77,6 +77,7 @@ h3,p{
 
 main{
   width:100%;
+  background-color: #fff;
 }
 .clearfix::after{
   clear:both;
@@ -89,15 +90,13 @@ main{
 .col-4{
   position:relative;
   width:calc(100%/3);
-  height:400px;
-  background-color: red;
-  border:1px solid black;
+}
+.main-top .col-4{
+  height:100px;
 }
 .col-6{
   width:calc(100%/2);
   height:400px;
-  background-color: green;
-  border:1px solid grey;
 }
 .main-top,.main-middle,.main-bottom{
   width:90%;
@@ -105,7 +104,9 @@ main{
 }
 
 footer{
+  margin-top: 20px;
   width:100%;
+  background-color:#ccc;
 }
 .footer-layout{
   margin:0 auto;
@@ -114,20 +115,34 @@ footer{
 .main-top img{
   width:100%;
   height:100%;
-  vertical-align:middle;
 }
 .main-top .image{
- width:60px;
- height:60px;
+ width:90px;
+ height:90px;
  position:absolute;
-top:10%;
+top:50%;
 left:50%;
-transform:translate(-50%,0);
+transform:translate(-50%,-50%);
+}
+main a {
+  color:blue;
+  text-decoration: underline;
+  padding:0;
+}
+hr{
+  width:75%;
+  margin:10px auto;
+}
+.col-4 hr{
+  width:30%;
 }
 
-hr{
-  width:30%;
-  margin:0 auto;
+.main-middle .col-4{
+  text-align: center;
+  padding:10px;
+}
+.main-middle .col-4 h4{
+color:green;
 }
 
 .mainbottom-layout{
@@ -135,12 +150,17 @@ hr{
   width:85%;
 }
 
+
+
 .mainbottom-layout .col-6:first-child
 {background-image: url(../img/mountain.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.mainbottom-layout .col-6:last-child
+{padding:10px 0 0 10px;
 }
 
 .button{
@@ -155,3 +175,7 @@ hr{
 }
 
 footer a:last-child{display:block;}
+
+footer .col-6{
+  height:100px;
+}
