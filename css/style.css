@@ -40,19 +40,25 @@ header{
   padding-top: 10px;
   position:relative;
   height:400px;
-  background-image: url("../img/image.png");
-  background-position:top;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
 }
 .top-layout{
   width:90%;
   margin:0 auto;
 }
 
-nav{
+nav{height:10%;
   display:inline-block;
     margin-left: 70px;
+}
+.background-layout{
+  height:400px;
+  width:100%;
+  background-image: url("../img/image.png");
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav>ul>li{
