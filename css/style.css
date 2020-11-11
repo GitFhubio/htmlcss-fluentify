@@ -214,7 +214,7 @@ footer .col-6:last-child{
 }
 footer .green.button:last-child{
   width:80px;
-  text-align: center;
+  text-align:center;
   position:relative;
   top:3px;
   left:220px;
