@@ -176,10 +176,10 @@ header p{
 
 
 .mainbottom-layout .col-6:first-child
-{background-image: url(../img/mountain.svg);
+{background-image: url("../img/mountain.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 }
 .mainbottom-layout .col-6:last-child
