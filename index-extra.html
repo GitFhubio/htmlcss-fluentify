@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Layout fluentify</title>
+    <link rel="stylesheet" href="css/style-extra.css">
+  </head>
+  <body>
+   <!-- creo contenitore principale -->
+   <div class="container">
+    <!-- nel container metto header diviso in top e bottom -->
+     <header>
+       <!-- l'header top avrà un suo layout interno -->
+      <div class="header-top">
+       <div class="top-layout">
+         <img class="logo" src="img/logo.svg" alt="logo">
+         <!-- inserisco due nav -->
+         <nav class="nav-left">
+          <ul>
+            <li><a href="#">IL METODO</a></li>
+            <li><a href="#">LA TECNOLOGIA</a></li>
+            <li><a href="#">REAL-TIME ENGLISH</a></li>
+            <li><a href="#">SOLUZIONI AZIENDALI</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-right">
+           <ul>
+             <li><a href="#">DIVENTA UN TUTOR</a></li>
+             <li><a href="#" class="button">LOGIN</a></li>
+             <li><a href="#" class="green button">STRUTTURA UN PIANO</a></li>
+           </ul>
+        </nav>
+         <!-- inserisco sfondo che parte sotto le nav -->
+        <div class="background-layout">
+         <!-- inserisco div contenente il titolo e il bottone -->
+           <div class="title">
+            <h1>Scegli l'inglese studiato per i professionisti</h1>
+            <a href="" class="green button">Prenota un piano</a>
+           </div>
+        </div>
+       </div>
+      </div>
+      <!-- chiudo l'header top col suo toplayout -->
+      <div class="header-bottom">
+       <div class="bottom-layout">
+        <h3>Le scuole tradizionali non sono efficaci</h3>
+        <p>Solo un corso basato sulla fluency può portare ad una soluzione efficace.</p>
+       </div>
+      </div>
+     </header>
+    <!-- chiudo header -->
+    <!-- apro main divisa in top e bottom -->
+      <main>
+       <div class="main-top">
+         <!-- nella main top metto tre colonne nella bottom due -->
+        <img src="img/profile.svg" alt="">
+         <img src="img/computer.svg" alt="">
+          <img src="img/doc.svg" alt="">
+
+         </div>
+       </div>
+          <!-- chiudo main top -->
+          <!-- apro una main middle per il testo -->
+          <div class="main-middle clearfix">
+            <div class="col-4 fl">
+              <hr>
+              <h4>Piano formativo configurato sul proprio livello</h4>
+              <p>Un metodo improntato sullo speaking con percorsi basati esclusivamente sulle esigenze dei partecipanti.Tutto parte da un accurato test di partenza per definire il livello e gli obiettivi da raggiungere.</p>
+
+            </div>
+            <div class="col-4 fl">
+              <hr>
+              <h4>Affiancamento costante del tutor</h4>
+              <p>Scopri il Syllabus, la guida per il tuo percorso.Scegli gli argomenti per passare ai livelli successivi e affrontali col tutor nelle sessioni one to one.</p>
+            </div>
+            <div class="col-4 fl">
+              <hr>
+              <h4>Monitora i tuoi progressi costantemente</h4>
+              <p>Controlla i tuoi progressi coi dati elaborati dal nostro sistema.Hai il pieno controllo su miglioramenti e obiettivi raggiunti.</p>
+            </div>
+            <!-- chiudo main middle -->
+          </div>
+          <hr>
+          <!-- apro main bottom -->
+       <div class="main-bottom clearfix">
+         <div class="mainbottom-layout">
+
+         <div class="col-6 fl">
+
+         </div>
+         <div class="col-6 fl">
+           <h4>Scopri il tuo livello iniziale e struttura un piano personalizzato </h4>
+           <p>L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese ad oggi.</p>
+           <a href="#">Scopri il nostro test di placement</a>
+         </div>
+         </div>
+         <!-- chiudo main bottom -->
+       </div>
+       <!-- chiudo la main -->
+      </main>
+      <!-- apro footer -->
+      <footer>
+       <div class="footer-layout clearfix">
+         <div class="col-6 fl">
+          <h3>Struttura un piano</h3>
+         </div>
+         <div class="col-6 fl clearfix">
+           <div class="foot-left fl">
+             <label for="genere-select">Sono:</label>
+             <select name="genere-select">
+               <option value="0">Seleziona:</option>
+               <option value="1">Maschio</option>
+               <option value="2">Femmina</option>
+             </select>
+           </div>
+           <div class="foot-right fl">
+             <div>
+               <a href="#" class="green button">Seleziona il tuo piano</a>
+             </div>
+             <div>
+               <a href="#" class="green button">Help</a>
+             </div>
+           </div>
+         </div>
+
+       </div>
+      </footer>
+      <!-- chiudo footer -->
+   <!-- chiudo main -->
+   </div>
+   <!-- chiudo container -->
+  </body>
+</html>
