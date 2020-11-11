@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Layout</title>
+    <title>Layout fluentify</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -10,9 +10,34 @@
    <div class="container">
     <!-- nel container metto header diviso in top e bottom -->
      <header>
+       <!-- l'header top avrà un suo layout interno -->
       <div class="header-top">
-
+        <div class="top-layout">
+         <img src="img/logo.svg" alt="logo">
+         <!-- inserisco due nav -->
+         <nav class="nav-left">
+          <ul>
+            <li>il metodo</li>
+            <li>la tecnologia</li>
+            <li>real-time english</li>
+            <li>soluzioni aziendali</li>
+          </ul>
+        </nav>
+         <nav class="nav-right">
+           <ul>
+             <li>diventa un tutor</li>
+             <li>login</li>
+             <li>struttura un piano</li>
+           </ul>
+         </nav>
+         <!-- inserisco div contenente il titolo e il bottone -->
+         <div class="middle">
+          <h1>Scegli l'inglese studiato per i professionisti</h1>
+          <a href="" class="button">Prenota un piano</a>
+         </div>
+       </div>
       </div>
+      <!-- chiudo l'header top col suo toplayout -->
       <div class="header-bottom">
 
       </div>

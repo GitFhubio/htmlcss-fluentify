@@ -8,3 +8,43 @@ box-sizing: border-box;
   width:1200px;
   margin:0 auto;
 }
+header{
+  background-color: blue;
+  height:500px;
+}
+.header-top{
+  position:relative;
+  border:1px solid red;
+  height:400px;
+  background-image: url("../img/image.png");
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-layout{
+
+  width:90%;
+  margin:0 auto;
+}
+ul{
+  list-style: none;
+}
+
+nav{
+  display:inline-block;
+    margin-left: 150px;
+}
+
+nav>ul>li{
+  display:inline-block;
+}
+.middle{
+  width:400px;
+  border:1px solid red;
+  position:absolute;
+  top:50%;
+  transform:translate(,-50%);
+}
+h1{
+  color: #fff;
+}
