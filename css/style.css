@@ -48,17 +48,17 @@ header{
   margin:0 auto;
 }
 
-nav{height:10%;
+nav{height:50px;
   display:inline-block;
     margin-left: 70px;
 }
 .background-layout{
-  height:400px;
+  height:350px;
   width:100%;
   background-image: url("../img/image.png");
-  background-position:top;
+  background-position:right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 nav>ul>li{
