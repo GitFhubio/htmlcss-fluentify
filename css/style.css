@@ -210,17 +210,21 @@ footer h3{
   line-height: 100px;
 }
 footer .col-6:last-child{
-  padding:20px 0 0 130px;
+  padding:20px 0 0 80px;
 }
 footer .green.button:last-child{
   width:80px;
   text-align:center;
   position:relative;
   top:3px;
-  left:220px;
+  left:280px;
 }
-span{
+label{
   font-size: 16px;
+}
+select{
+  display: inline-block;
+  width:140px;
 }
 
 /* la disposizione degli elementi nel footer
