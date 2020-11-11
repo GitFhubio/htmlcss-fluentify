@@ -3,16 +3,22 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+a{text-decoration: none;
+  color: #fff;
+  padding:5px;}
 
 .container{
   width:1200px;
   margin:0 auto;
 }
+body{font-family: arial;
+}
 header{
-  background-color: blue;
+  background-color:rgb(15,50,101);
   height:500px;
 }
 .header-top{
+  padding-top: 10px;
   position:relative;
   border:1px solid red;
   height:400px;
@@ -22,7 +28,6 @@ header{
   background-size: cover;
 }
 .top-layout{
-
   width:90%;
   margin:0 auto;
 }
@@ -32,12 +37,19 @@ ul{
 
 nav{
   display:inline-block;
-    margin-left: 150px;
+    margin-left: 70px;
 }
 
 nav>ul>li{
   display:inline-block;
+  padding:0 1px;
+  font-size: 12px;
+  color: #fff;
+
 }
+.logo{vertical-align: middle;
+}
+
 .middle{
   width:400px;
   border:1px solid red;
@@ -49,6 +61,7 @@ h1{
   color: #fff;
 }
 .header-bottom{position:relative;
+ background-color: #ccc;
 height:100px;}
 .bottom-layout{
 width:60%;
@@ -131,8 +144,10 @@ hr{
 }
 
 .button{
+  text-transform: uppercase;
   display:inline-block;
   border:1px solid red;
+  border-radius:5px;
 
 }
 .green{
