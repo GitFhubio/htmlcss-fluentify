@@ -222,3 +222,9 @@ footer .green.button:last-child{
 span{
   font-size: 16px;
 }
+
+/* la disposizione degli elementi nel footer
+sarebbe stata più facile creando altri div
+nella colonna di destra ma sono arrivato lungo
+per cui ho usato un position absolute per il bottone di sotto
+che era un inline block quindi naturalmente andava allineato all'altro */
