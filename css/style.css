@@ -1,26 +1,41 @@
+/* reset */
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+/* regole generali */
 a{text-decoration: none;
   color: #fff;
   padding:5px;}
 
+ul{
+    list-style: none;
+  }
+.clearfix::after{
+    clear:both;
+    display:table;
+    content:"";
+}
+.fl{
+    float:left;
+  }
+
+  /* regole ai blocchi */
 .container{
   width:1200px;
   margin:0 auto;
 }
 body{font-family: arial;
+  font-size:20px;
 }
 header{
-  background-color:rgb(15,50,101);
-  height:500px;
+   background-color:rgb(15,50,101);
+   height:100%;
 }
 .header-top{
   padding-top: 10px;
   position:relative;
-  border:1px solid red;
   height:400px;
   background-image: url("../img/image.png");
   background-position:top;
@@ -30,9 +45,6 @@ header{
 .top-layout{
   width:90%;
   margin:0 auto;
-}
-ul{
-  list-style: none;
 }
 
 nav{
@@ -50,9 +62,8 @@ nav>ul>li{
 .logo{vertical-align: middle;
 }
 
-.middle{
+.title{
   width:400px;
-  border:1px solid red;
   position:absolute;
   top:50%;
   transform:translate(0,-50%);
@@ -78,14 +89,6 @@ h3,p{
 main{
   width:100%;
   background-color: #fff;
-}
-.clearfix::after{
-  clear:both;
-  display:table;
-  content:"";
-}
-.fl{
-  float:left;
 }
 .col-4{
   position:relative;
@@ -142,7 +145,15 @@ hr{
   padding:10px;
 }
 .main-middle .col-4 h4{
-color:green;
+color:rgb(94,182,0);
+padding-bottom: 5px;
+font-size:30px;
+}
+p{
+  line-height: 30px;
+}
+header p{
+  opacity:0.4;
 }
 
 .mainbottom-layout{
@@ -150,6 +161,14 @@ color:green;
   width:85%;
 }
 
+.mainbottom-layout h4{
+  font-size: 35px;
+}
+
+.mainbottom-layout p{
+  padding:10px 0;
+  text-align: left;
+}
 
 
 .mainbottom-layout .col-6:first-child
@@ -160,7 +179,7 @@ color:green;
 
 }
 .mainbottom-layout .col-6:last-child
-{padding:10px 0 0 10px;
+{padding:10px 20px 0 10px;
 }
 
 .button{
