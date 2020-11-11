@@ -129,3 +129,14 @@ hr{
   background-size: cover;
 
 }
+
+.button{
+  display:inline-block;
+  border:1px solid red;
+
+}
+.green{
+  background-color: green;
+}
+
+footer a:last-child{display:block;}
