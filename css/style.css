@@ -134,7 +134,7 @@ main a {
 }
 hr{
   width:75%;
-  margin:10px auto;
+  margin:0 auto 10px auto;
 }
 .col-4 hr{
   width:30%;
@@ -144,10 +144,10 @@ hr{
   text-align: center;
   padding:10px;
 }
-.main-middle .col-4 h4{
+.main-middle h4{
 color:rgb(94,182,0);
 padding-bottom: 5px;
-font-size:30px;
+font-size:25px;
 }
 p{
   line-height: 30px;
