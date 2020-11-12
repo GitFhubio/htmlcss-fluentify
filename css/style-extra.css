@@ -26,7 +26,8 @@ ul{
 
   /* regole ai blocchi */
 .container{
-  width:1200px;
+  max-width:1400px;
+  width:100vw;
   margin:0 auto;
 }
 body{font-family: arial;
@@ -39,7 +40,7 @@ header{
 .header-top{
   padding-top: 10px;
   position:relative;
-  height:400px;
+  height:55vh;
 
 
 }
@@ -48,12 +49,12 @@ header{
   margin:0 auto;
 }
 
-nav{height:50px;
+nav{height:2vh;
   display:inline-block;
-    margin-left: 70px;
+    margin-left: 10vw;
 }
 .background-layout{
-  height:350px;
+  height:50vh;
   width:100%;
   background-image: url("../img/image.png");
   background-position:right;
@@ -72,7 +73,7 @@ nav>ul>li{
 }
 
 .title{
-  width:400px;
+  width:45vw;
   position:absolute;
   top:50%;
   transform:translate(0,-50%);
@@ -82,7 +83,7 @@ h1{
 }
 .header-bottom{position:relative;
  background-color: #ccc;
-height:100px;}
+height:14vh;}
 .bottom-layout{
 width:60%;
 position:absolute;
@@ -102,11 +103,11 @@ main{
   width:calc(100%/3);
 }
 .main-top .col-4{
-  height:100px;
+  height:14vh;
 }
 .col-6{
   width:calc(100%/2);
-  height:400px;
+  height:57vh;
 }
 .main-top,.main-middle,.main-bottom{
   width:90%;
@@ -124,7 +125,7 @@ footer{
 }
 .main-top{
   text-align:center;
-  line-height: 100px;
+  line-height: 14vh;
 }
 .main-top img{
   width:90px;
@@ -205,10 +206,10 @@ header p{
 }
 
 footer .col-6{
-  height:100px;
+  height:14vh;
 }
 footer h3{
-  line-height: 100px;
+  line-height: 14vh;
 }
 footer .col-6:last-child{
   padding:20px 0 0 20px;
